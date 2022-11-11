@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Rajat Raj</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="assets\img\favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets\img\favicon.ico" type="image/x-icon">
+  <!-- Include animate.css -->
+  <link rel="stylesheet" href="stylesheets\animate.min.css">
+
+  <!-- Include hover.css -->
+  <link rel="stylesheet" href="stylesheets\hover-min.css">
+
+  <!-- Include jQuery -->
+  <script type="text/javascript" src="javascript\jquery-3.4.1.min.js"></script>
+
+  <!-- Include fullpage.js -->
+  <script type="text/javascript" src="javascript\scrolloverflow.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets\jquery.fullpage.min.css">
+  <script type="text/javascript" src="javascript\jquery.fullpage.min.js"></script>
+
+  <!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script type="text/javascript">
+		function toggleCoursework() {
+			$('.coursework').slideToggle(500);
+		};
+	</script>
+
+  <script type="text/javascript">
+    function toggleActivities() {
+      $('.activities').slideToggle(500);
+    };
+  </script>
+
+  <script type="text/javascript">
+    function toggleCertificates() {
+      $('.certificates').slideToggle(500);
+    };
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+      css3: false,
+      scrollOverflow: true,
+      scrollOverflowEndPrevent: { delay: 500, reversal: false },
+      scrollOverflowOptions: {
+        interactiveScrollbars: true
+      },
+      verticalCentered: false,
+      anchors:['home', 'about'],
+      sectionsColor: ['#ffffff', '#ffffff']
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    function openCity(evt, cityName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the current tab, and add an "active" class to the link that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">RAJAT RAJ</a></h1>
+
+
+      <em><h2>Undergraduate @ RVCE, Class of 2023</h2>
+      <h2>Electronics and Communication Engineering</h2></em>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Experience</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+
+      <div class="social-links">
+        <a href="https://www.quora.com/profile/Rajat-Raj-39" class="quora"><i class="fa fa-quora"></i></a>
+        <a href="https://www.facebook.com/irajrajat/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/irajrajat/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/irajrajat/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/irajrajat" class="github"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+<br>
+        <p>About</p>
+      </div>
+<br>
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="D:\Rajat Raj\Desktop\Personal\assets\img\me_updated.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+
+          <p><h4>
+              Hello. I'm Rajat.
+                I am currently a 4th year Undergraduate at RVCE in department of Electronics
+                and Communication. I'm especially interested in exploring embedded devices and
+                VLSI domain. Also, I like pushing myself and taking up new challenges.
+          </p>
+
+          <p>
+            Happy to welcome you here, and tell you bit about me. Happy browsing.
+          </p>
+        </h4>
+          <p><h5><b>
+            <a href="D:\Rajat Raj\Desktop\Personal\Rajat_Raj_Resume.pdf">My Resume</a>
+          </h5></b></p>
+
+
+      <p>
+    </div>
+    <!-- End About Me -->
+
+
+
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+
+  <section id="resume" class="resume">
+  <div class="container">
+
+      <div class="section-title">
+
+
+      </div>
+
+      <div class="work info-block">
+
+        <h1>Education & Work Experience</h1>
+        <br>
+        <div class="tab">
+          <button class="tablinks active" onclick="openCity(event, 'RVCE')">RVCE</button>
+          <button class="tablinks" onclick="openCity(event, 'Vidyapati Public School')">Vidyapati Public School </button>
+          <button class="tablinks" onclick="openCity(event, 'Education')">DAV </button>
+          <button class="tablinks" onclick="openCity(event, 'Proxelera')">Proxelera</button>
+          <button class="tablinks" onclick="openCity(event, 'Wirin WIPRO-IISC-RVCE')">Wirin WIPRO-IISC-RVCE</button>
+          <button class="tablinks " onclick="openCity(event, 'CISCO-RVCE CoE in IOT ')">CISCO-RVCE CoE in IOT </button>
+          <button class="tablinks" onclick="openCity(event, 'Madcrayons')">Madcrayons</button>
+
+
+        </div>
+        <div id="RVCE" class="tabcontent">
+          <h1>Education</h1>
+          <h3><a href="https://www.rvce.edu.in/"><i>RV College of Engineering</i></h3></a>
+          <h4>B.E. in Electronics & Communication, [2019-present]</h4>
+          <ul>
+            <h4>Currently, I’m a third-year undergraduate ECE student at RVCE, Bangalore.</h4>
+            <br>
+            <h5>
+            <p class=view-coursework onclick="toggleCoursework()"><a href="javascript:;">>> View Relevant coursework</a></p></h5>
+            <div class=coursework>
+              <ul><h5>
+              Embedded System Design (18EC52)*, Digital VLSI Design  (18EC54)*, Digital Signal Processing and Machine Learning  (18EC55)*
+              Analysis & Design of Digital Circuits (18EC34), Analog Microelectronic Circuits (18EC33),
+              Programming in C, Advanced Digital System Design using Verilog HDL (18EC43),
+              Microprocessor & Microcontroller (18EI44), Analog Integrated Circuits Design(18EC46),
+              Engineering Mathematics.
+            </h5></ul>
+            </div>
+
+            <h5>
+            <p class=view-coursework onclick="toggleActivities()"><a href="javascript:;">>> Activities and Societies </a></p></h5>
+            <div class=activities></b></h4>
+              <ul><h5>
+              <p>
+              <li><i>Wipro-IISc Autonomous Vehicle Research Group:</i> Working on Image data Masking. The primary goal of the project
+                  is to create an alternative version of data that cannot be easily identified or reverse engineered, therefore
+                  safeguarding sensitive data.
+              <li><i>National Service Scheme:</i> Participated in NSS CAMP in association with
+                <a href="https://campus2community.org/">Campus 2 Community</a>,
+                  an initiative started back in 2015 aimed in the student engagement at the community level. The activities
+                  will include art work on the walls, providing awareness charts with regards to environment, health, cleanliness
+                  and management, library and lab equipment’s, drinking water facility, sports kit, first aid kits etc.
+              <li><i><a href="https://teamchimera.in/">Team Chimera:</i></a> I am currently working on Saftey Circuits.
+                My work includes custom circuit and PCB design to physical construction and implementation.
+                 Finally, the safety system must ensure both the driver's safety and compliance with all applicable rules.
+            </p>
+            </div>
+
+            <h5>
+            <p class=view-coursework onclick="toggleCertificates()"><a href="javascript:;">>>Certifications</a></p></h5>
+            <div class=certificates>
+              <ul><h5>
+              <li><a href="https://www.udemy.com/certificate/UC-69d308cc-74c6-4f95-8b6b-8211937e5e40/">Art and Science of PCB Design with Eagle</a>
+              <li><a href="https://www.coursera.org/account/accomplishments/verify/5XWYXAFZVBXS">Introduction to Git and GitHub</a>
+              <li><a href="https://www.udemy.com/certificate/UC-3fea46d5-aafc-41ee-b93e-b7d90572c546/">Complete Python Bootcamp</a>
+
+            </h5></ul>
+            </div>
+
+          </ul>
+        </div>
+
+        <div id="Vidyapati Public School" class="tabcontent">
+            <h1>Education</h1>
+          <h3>Vidyapati Public School</h3>
+          <h4>Class 11th & 12th [2016-2018]</h4>
+          <ul>
+        </div>
+
+        <div id="Education" class="tabcontent">
+            <h1>Education</h1>
+          <h3><a href="http://davbsebpatna.org/">DAV, BSEB</a></h3>
+          <h4>Class 10 [          -2016]</h4>
+          <ul>
+          <h4>Completed my class 10 from DAV, BSEB.</h4>
+          </ul>
+        </div>
+      </div>
+
+      <div id="Proxelera" class="tabcontent">
+        <h1>Work</h1>
+        <h3><a href="https://proxelera.com/">Proxelera [April 22 - August 22]</h3></a></h3>
+        <h4>Intern</h4>
+        <ul>
+          <li>Implementing Burst mode data transfer using AXI protocol. </li>
+          <li>Working on APB, AXI protocols and it's interfacing with SOC using
+            standard ARM based interface systems. </li>
+            <li>Performed Comparative study of Sigmoid and ReLU activation function
+               for accuracy of the network and the total resource utilization and clock 
+               performance.</li>
+          </ul>
+      </div>
+
+      <div id="Wirin WIPRO-IISC-RVCE" class="tabcontent">
+        <h1>Work</h1>
+        <h3><a href="https://eecs.iisc.ac.in/wirin-wipro-iisc-innovation-network/">Wirin WIPRO-IISC-RVCE</a></h3>
+        <h4>Research Intern [-ongoing]</h4>
+        <ul>
+          <li>Working on Image data Masking. The primary goal of the project
+            is to create an alternative version of data that cannot be easily identified or reverse engineered, therefore
+            safeguarding sensitive data.</li>
+          <li>Working on various  algorithms  for  detection  of  license  plate  in  a  car  and automatically
+            masking the  plate  using  image  processing.</li>
+        </ul>
+      </div>
+
+      <div id="CISCO-RVCE CoE in IOT " class="tabcontent">
+        <h1>Work</h1>
+        <h3>CISCO-RVCE CoE in IOT [July 20 - Sept 20] </h3>
+        <h4>Intern</h4>
+        <ul>
+          <li>Worked on a project "IoT based smart agricultural Monitoring System".</li>
+          <li>Worked on sensors for collecting and analyzing field data such as temperature, humidity, soil moisture and rain
+            detector. In the form of a wireless sensor network, these sensors are combined with well-established web
+            technology to remotely control and track sensor data. </li>
+          <li>This system is completely automated and there is no need for human intervention. Also, the sensor readings are
+              transmitted to a Thing speak channel to generate graphs for analysis.
+            </li>
+          </ul>
+      </div>
+
+      <div id="Madcrayons" class="tabcontent">
+        <h1>Work</h1>
+        <h3><a href="https://madcrayons.com/">Madcrayons</a></h3>
+        <h4>Search Engine Optimization Intern</h4>
+        <ul>
+          <li>Worked with Business Analytics team overlooking category related analysis.</li>
+          <li>Implemented SEO to improve website ranking on Google Search Engine.</li>
+          <li>Monitoring and analysing the websites’ organic performance with specialized SEO tools</li>
+          <li>Optimized website pages with relevant keywords and improved formatting and readability, to decrease bounce rate.</li>
+          <li>Driving strategy to acquire backlinks that positively impact organic rankings.</li>
+
+        </ul>
+      </div>
+
+      </div>
+  </div>
+  </section>
+  <!-- End Resume Section -->
+
+
+
+<!-- ======= Portfolio Section ======= -->
+<!-- *****************************************************************************************************************************************************************************-->
+    <section id="projects" class="projects">
+
+      <div class="clear-float"></div>
+      <div class="projects info-block">
+          <br>
+        <h1>Projects</h1>
+
+        <div class="proj proj-left">
+          <div class="proj-image">
+            <img src="images\original\verilog.png"/>
+            <img class="proj-img-hover" src="images\original\vivadortl.jpg"/>
+          </div>
+          <div class="proj-desc">
+            <div class=proj-header>
+              <h2>Appox. Multiplier using 4:2 Compressors</h2>
+              <div class="proj-links white-icons">
+                <a href="https://github.com/irajrajat/Appoximate-Multiplier-using-Dual-Stage-4-2-Compressors" class="proj-link">
+                  <img src="images/web_optimized/white_icons/github_small.png"/></a>
+                  <a href="https://docs.google.com/presentation/d/1b6d2faa5WioIoDEQzRRmxMW9MnDtTs8VvbFwziG0Lfk/edit#slide=id.ge6454ce0d5_0_111" class="proj-link">
+                    <img src="images/web_optimized/white_icons/external_small.png"/>  </a>
+                </div>
+
+              <div class="proj-links colored-icons">
+                <a href="https://github.com/irajrajat/Appoximate-Multiplier-using-Dual-Stage-4-2-Compressors" class="proj-link">
+                  <img src="images/web_optimized/colored_icons/github_small.png"/></a>
+                  <a href="https://docs.google.com/presentation/d/1b6d2faa5WioIoDEQzRRmxMW9MnDtTs8VvbFwziG0Lfk/edit#slide=id.ge6454ce0d5_0_111" class="proj-link">
+                    <img src="images/web_optimized/colored_icons/external_small.png"/>
+                </a>
+              </div>
+            </div>
+            <p><h5>The aim of this project is to design and simulate a 16-bit 
+              approximate multiplier using 4:2 Compressors to deliver high performance 
+              and execution efficiency at low power consumption. The tradeoff was reduction
+               in the accuracy, which does not necessarily affect the normal operation for 
+               machine learning and multimedia applications.
+          </h5>  </p>
+          </div>
+        </div>
+
+        <div class="proj proj-right">
+          <div class="proj-image">
+            <img src="images\original\ECG_abnormal.png"/>
+            <img class="proj-img-hover" src="images\original\ECG_Normal.jpg"/>
+          </div>
+          <div class="proj-desc">
+            <div class=proj-header>
+              <h2>ECG Classification Using NLMS and KNN </h2>
+
+              <div class="proj-links white-icons">
+                <a href="https://github.com/irajrajat/ECG-Signal-Classification-Using-Normalized-LMS-and-K-nearest-neighbours-algorithm" class="proj-link">
+                  <img src="images/web_optimized/white_icons/github_small.png"/>
+                </a>
+                <a href="https://docs.google.com/presentation/d/1iBfycmr-5-4RzNqmamiefiepOVFy5esctJyBW_uROuw/edit#slide=id.ge984a9124f_0_56" class="proj-link">
+                  <img src="images/web_optimized/white_icons/external_small.png"/>
+                </a>
+              </div>
+
+              <div class="proj-links colored-icons">
+                <a href="https://github.com/irajrajat/ECG-Signal-Classification-Using-Normalized-LMS-and-K-nearest-neighbours-algorithm" class="proj-link">
+
+                  <img src="images\web_optimized\colored_icons\github_small.png"/>
+                </a>
+                <a href="https://docs.google.com/presentation/d/1iBfycmr-5-4RzNqmamiefiepOVFy5esctJyBW_uROuw/edit#slide=id.ge984a9124f_0_56" class="proj-link">
+                  <img src="images\web_optimized\colored_icons\external_small.png"/>
+                </a>
+              </div>
+
+            	</div>
+            <p><h5> In this project ECG signal pre-processing and KNN based beat classification is performed to categorize
+                the signal into normal and abnormal subjects. LMS based adaptive filters are used in ECG signal pre-pr
+                ocessing for the removal of noise. Compressing the processed denoised signal to decrease the time delay
+                by selective feature selection.</h5></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="proj proj-left">
+          <div class="proj-image">
+            <img src="images\original\Bidirectional_counter.png"/>
+          </div>
+          <div class="proj-desc">
+            <div class=proj-header>
+              <h2>Bidirectional Counter for Power Automation</h2>
+              <div class="proj-links white-icons">
+                <a href="https://github.com/irajrajat/Bi-directional-Vistitors-Counter-for-Power-Automation" class="proj-link">
+                    <img src="images/web_optimized/white_icons/github_small.png"/>
+
+
+                </a>
+                    <a href="Bi-directional Vistitors Counter.pdf" class="proj-link">
+                  <img src="images/web_optimized/white_icons/external_small.png"/>
+
+                </a>
+            </div>
+
+            <div class="proj-links colored-icons">
+              <a href="https://github.com/irajrajat/Bi-directional-Vistitors-Counter-for-Power-Automation" class="proj-link">
+                  <img src="images\web_optimized\colored_icons\github_small.png"/>
+
+              </a>
+                  <a href="Bi-directional Vistitors Counter.pdf" class="proj-link">
+
+                <img src="images\web_optimized\colored_icons\external_small.png"/>
+              </a>
+          </div>
+
+            </div>
+            <p><h5>The aim of this project is to make a model based on a microcontroller
+              to count the number of people entering a mall then enable the required
+              number of motors or engines based on the number of people inside the
+              mall using Proteus Simulation Software. the project is a real-life model
+              capable of carrying out the mission of counting in both directions. Not
+              only will it raise the counter when any individual enters the mall through
+              the entry, but also when any person exits the mall through the exit, the
+              value of the counter decreases accordingly.</h5>
+            </p>
+          </div>
+        </div>
+        <div class="clear-float"></div>
+      </div>
+
+      <div class="proj proj-right">
+        <div class="proj-image">
+          <img src="D:\Rajat Raj\Desktop\Personal\images\original\CNN.png"/>
+          <img class="proj-img-hover" src="D:\Rajat Raj\Desktop\Personal\images\original\Neural_Network.PNG"/>
+        </div>
+        <div class="proj-desc">
+          <div class=proj-header>
+            <h2>HighSpeed Data Transfer using AXI</h2>
+            <div class="proj-links white-icons">
+              <a href="https://github.com/irajrajat/AMBA-APB-Codes" class="proj-link">
+                <img src="images/web_optimized/white_icons/github_small.png"/></a>
+                <a href="https://docs.google.com/presentation/d/12yIAMOkTnOH2WNm68Ur19RcCO-9COWpkIs9WKG51wis/edit#slide=id.g12fdda01505_1_0" class="proj-link">
+                  <img src="images/web_optimized/white_icons/external_small.png"/>  </a>
+                  <a href="https://drive.google.com/file/d/1DEvcBpDcwTMa4fFi8g3cGpDhpMp_Gcb1/view?usp=sharing" class="proj-link">
+                    <img src="images/web_optimized/white_icons/external_small.png"/>  </a>
+              </div>
+
+            <div class="proj-links colored-icons">
+              <a href="https://github.com/irajrajat/AMBA-APB-Codes" class="proj-link">
+                <img src="images/web_optimized/colored_icons/github_small.png"/></a>
+                <a href="https://docs.google.com/presentation/d/12yIAMOkTnOH2WNm68Ur19RcCO-9COWpkIs9WKG51wis/edit#slide=id.g12fdda01505_1_0" class="proj-link">
+                  <img src="images/web_optimized/colored_icons/external_small.png"/>
+                  <a href="https://docs.google.com/presentation/d/12yIAMOkTnOH2WNm68Ur19RcCO-9COWpkIs9WKG51wis/edit#slide=id.g12fdda01505_1_0" class="proj-link">
+                    <img src="images/web_optimized/colored_icons/external_small.png"/>
+                    <a href="https://drive.google.com/file/d/1DEvcBpDcwTMa4fFi8g3cGpDhpMp_Gcb1/view?usp=sharing" class="proj-link">
+                      <img src="images/web_optimized/white_icons/external_small.png"/>  </a>
+              </a>
+            </div>
+          </div>
+          <p><h5>The objective is to develop an IP core block for image detection with
+            limited resources and low latency for recognizing digits using CNN
+            architecture. AXI protocol is developed to achieve high-speed data transfer. Performed 
+            Comparative study of Sigmoid and ReLU activation function for accuracy of the network and the
+            total resource utilization and clock performance.
+        </h5>  </p>
+        </div>
+      </div>
+
+  </section>
+
+<!-- *****************************************************************************************************************************************************************************-->
+  <!-- ======= Contact Section ======= -->
+
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+  <br>
+        <p>Contact Me</p>
+          <br>
+        <p><h5>Please feel free to contact me if you have any questions or simply want to say hello.</h5> </p>
+        <p><h5>  You can write to me at, <a href="rajat.sharma938@gmail">rajat.sharma938@gmail</a> Or connect via the digital universe.</h5></p>
+      </div>
+  <br>
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Mysore Rd, RV Vidyaniketan, Post, Bengaluru, Karnataka 560059</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.quora.com/profile/Rajat-Raj-39" class="quora"><i class="fa fa-quora"></i></a>
+              <a href="https://www.facebook.com/irajrajat/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/irajrajat/" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/irajrajat/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/irajrajat" class="github"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>rajat.sharma938@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>91 709182205X</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section><!-- End Contact Section -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

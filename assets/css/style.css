@@ -489,14 +489,14 @@ font-size: 20px
 }
 
 .proj-image {
-	height: 500px;
+	height: 400px;
 	width: 54%;
 	margin-bottom: 60px;
 }
 
 .proj-image img {
 	object-fit: cover;
-	height: 500px;
+	height: 400px;
 	width: 54%;
 	position: absolute;
 	-webkit-transition: opacity 1s ease-in-out;
